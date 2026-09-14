@@ -8,7 +8,7 @@ Designed for **Sudheer Kumar**, B.Tech Computer Science student at AKTU and MERN
 
 ## 🌟 Live Demo & Portfolio Highlights
 
-- **Live Demo Link**: [Sudheer Kumar Portfolio](https://sudheer3883.github.io/my-Portfolio/)
+- **Live Demo Link**: [Sudheer Kumar Portfolio]([https://sudheer3883.github.io/my-Portfolio/](https://sudheer3883.github.io/my-Portfolio/))
 - **Live Projects Showcased**:
   - **Amazon Clone**: [Live Demo](https://sudheer3883.github.io/amazon-clone/)
   - **Music Player**: [Live Demo](https://sudheer3883.github.io/music-players/)
