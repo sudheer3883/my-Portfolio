@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sudheer Kumar developer avatar</title>
+  <desc id="desc">A stylized developer avatar with the initials SK.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10253f"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16b8d4"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="400" cy="330" r="190" fill="#f1b58e"/>
+  <path d="M215 318c8-153 89-228 190-228s182 75 190 228c-45-49-108-71-190-71s-145 22-190 71Z" fill="#17243a"/>
+  <path d="M248 286c28-104 91-145 158-145 78 0 139 50 157 145-39-35-91-52-157-52-67 0-119 17-158 52Z" fill="#263957"/>
+  <circle cx="330" cy="337" r="12" fill="#162238"/>
+  <circle cx="470" cy="337" r="12" fill="#162238"/>
+  <path d="M350 430c30 22 70 22 100 0" fill="none" stroke="#8f4f51" stroke-width="10" stroke-linecap="round"/>
+  <path d="M180 800c22-157 105-242 220-242s198 85 220 242Z" fill="url(#jacket)"/>
+  <path d="M317 578 400 680l83-102-28-32h-110Z" fill="#eaf8ff" opacity=".94"/>
+  <text x="400" y="735" text-anchor="middle" fill="#082036" font-family="monospace" font-size="74" font-weight="700">SK</text>
+  <circle cx="648" cy="130" r="72" fill="#07111f" stroke="#16b8d4" stroke-width="4"/>
+  <text x="648" y="148" text-anchor="middle" fill="#16b8d4" font-family="monospace" font-size="62" font-weight="700">&lt;/&gt;</text>
+</svg>

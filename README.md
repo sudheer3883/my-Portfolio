@@ -1,6 +1,6 @@
 # Sudheer Kumar - Professional Portfolio Website
 
-A modern, responsive, and recruiter-friendly personal portfolio website built with semantic HTML5, CSS3 (Custom Design System with CSS Variables), and vanilla JavaScript. 
+A modern, responsive, and recruiter-friendly personal portfolio website built with semantic HTML5, CSS3 (Custom Design System with CSS Variables), and vanilla JavaScript.
 
 Designed for **Sudheer Kumar**, B.Tech Computer Science student at AKTU and MERN Stack Developer at SoftPro India, to showcase live projects, technical proficiencies, education, internship experience, and resume.
 
@@ -32,7 +32,7 @@ Designed for **Sudheer Kumar**, B.Tech Computer Science student at AKTU and MERN
    - Tested across resolutions: 320px, 375px, 425px, 768px, 1024px, 1440px.
 
 3. **Interactive Project Showcase**:
-   - Filter tabs: *All Projects*, *Live Deployments*, and *Full Stack / MERN*.
+   - Filter tabs: _All Projects_, _Live Deployments_, and _Full Stack / MERN_.
    - Direct buttons for Live Demos and GitHub repositories.
    - High-quality dark-mode mockups without copyrighted logos.
 
@@ -59,7 +59,7 @@ Designed for **Sudheer Kumar**, B.Tech Computer Science student at AKTU and MERN
 - **HTML5**: Semantic tags, Open Graph meta tags, structured layout.
 - **CSS3**: CSS Variables (`:root`), Flexbox, CSS Grid, Glassmorphism, animations.
 - **JavaScript (ES6+)**: Vanilla DOM manipulation, IntersectionObserver for scroll spy, event listeners.
-- **Google Fonts**: *Plus Jakarta Sans* (body typography) & *Outfit* (headings).
+- **Google Fonts**: _Plus Jakarta Sans_ (body typography) & _Outfit_ (headings).
 - **Font Awesome 6.5.1**: Modern iconography via CDN.
 
 ---
@@ -75,7 +75,7 @@ portfolio website/
 ├── README.md               # Project documentation & setup instructions
 │
 ├── images/                 # Professional visual assets & mockups
-│   ├── profile.jpg         # Developer avatar visual card
+│   ├── profile.svg         # Developer avatar visual card
 │   ├── amazon-clone.jpg    # E-commerce interface preview
 │   ├── music-player.jpg    # Audio player preview
 │   ├── weather-app.jpg     # Weather forecast dashboard preview
@@ -92,23 +92,30 @@ portfolio website/
 ## 💻 How to Run Locally
 
 ### Option 1: Direct File Opening
+
 Double click `index.html` or right-click `index.html` and select **Open with Chrome / Edge / Firefox**.
 
 ### Option 2: VS Code Live Server (Recommended)
+
 1. Open the folder in **VS Code**.
 2. Install the **Live Server** extension (by Ritwick Dey).
 3. Right click on `index.html` and click **Open with Live Server**.
 4. The portfolio will launch automatically at `http://127.0.0.1:5500`.
 
 ### Option 3: Node.js / Python Local Server
+
 Run with Python:
+
 ```bash
 python -m http.server 3000
 ```
+
 Or run with npx:
+
 ```bash
 npx serve .
 ```
+
 Then visit `http://localhost:3000` in your browser.
 
 ---
@@ -116,6 +123,7 @@ Then visit `http://localhost:3000` in your browser.
 ## 🌐 How to Deploy to GitHub Pages
 
 1. Initialize git and commit your files:
+
    ```bash
    git init
    git add .
@@ -123,6 +131,7 @@ Then visit `http://localhost:3000` in your browser.
    ```
 
 2. Create a repository on GitHub named `portfolio` or `<your-username>.github.io`:
+
    ```bash
    git branch -M main
    git remote add origin https://github.com/sudheer3883/portfolio.git
@@ -142,24 +151,35 @@ Then visit `http://localhost:3000` in your browser.
 ## ✏️ How to Customize
 
 ### 1. Updating Personal Information
+
 Open `index.html` and search for:
+
 - Phone: `+91 8299403883`
 - Email: `rsk203096@gmail.com`
 - Location: `Hardoi / Lucknow, Uttar Pradesh`
 - Links: GitHub and LinkedIn URLs in the header, hero, and contact sections.
 
 ### 2. Replacing the Resume PDF
+
 Replace `resume/Sudheer-Kumar-Resume.pdf` with your updated PDF file while keeping the same filename, or update the filename inside `index.html`.
 
 ### 3. Connecting the Contact Form to Send Real Emails
+
 To receive form submissions straight to your email without a custom backend:
+
 1. Sign up for free at [Formspree](https://formspree.io/) or [Web3Forms](https://web3forms.com/).
 2. Change `<form id="contact-form" class="contact-form">` in `index.html` to:
    ```html
-   <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+   <form
+     id="contact-form"
+     action="https://formspree.io/f/YOUR_FORM_ID"
+     method="POST"
+     class="contact-form"
+   ></form>
    ```
 
 ---
 
 ## 📄 License
+
 Created for personal portfolio use by **Sudheer Kumar**. Free to customize and adapt.
